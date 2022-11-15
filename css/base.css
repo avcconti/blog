@@ -1,11 +1,11 @@
 /* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 
 :root {
-    --black: #0D0D0D;
-    --hotmag: #A69C94;
-    --magenta: #D9D9D9;
-    --aqua: #8697A6;
-    --dkblue: #5C6873;
+    --black: #293241;
+    --hotmag: #EE6C4D;
+    --magenta: #E0FBFC;
+    --aqua: #98C1D9;
+    --dkblue: #3D5A80;
     --white: #F2F2F2;
     --font-size: 1.3rem;
     --mono: "Oxygen mono", monospace;
