@@ -1,8 +1,8 @@
 /* intro styles */
 
 #intro {
-    padding: 4rem 1rem 10rem 1rem;
-    padding-bottom: 10rem;
+    padding: 0rem 1rem 0rem 1rem;
+    padding-bottom: 1rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -19,14 +19,14 @@
 
 .name span {
     font-family: var(--sans);
-    font-size: 4rem;
-    color: var(--aqua);
+    font-size: 3rem;
+    color: var(--magenta);
     display: block;
     font-weight: 300;
 }
 
 #intro h2 {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 /* projects section */
@@ -36,12 +36,12 @@
 }
 
 #projects h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: calc(2.5rem * 1.5);
 }
 
 #projects h3 {
-    color: var(--aqua);
+    color: var(--magenta);
 }
 
 #projects h4 {
@@ -50,11 +50,11 @@
     margin: 0;
 }
 
-.blackbox {
+.greybox {
     padding: 1rem;
     border-radius: 10px;
-    color: white;
-    background-color: var(--black);
+    color: var(--black);
+    background-color: var(--lGrey);
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -72,13 +72,15 @@
 
 #projects img {
     margin: 2rem 0 4rem 0;
-    padding: 1rem;
-    border-left: 1px solid var(--aqua);
-    border-top: 1px solid var(--aqua);
+    padding: 2rem;
+    border-left: 1px solid var(--magenta);
+    border-top: 1px solid var(--magenta);
     border-radius: 25px;
 }
 
-
+#projects .postlist-link {
+    text-decoration:none;
+}
 
 
 @media (min-width: 800px) {
