@@ -10,7 +10,7 @@ tags:
 image: /img/2020/sam-init.png
 imageAlt: Screenshot of the Wall of Wonder.
 date: 2020-12-07
-layout: layouts/base.njk
+layout: layouts/post.njk
 permalink: "/{{ title | slug }}/"
 ---
 

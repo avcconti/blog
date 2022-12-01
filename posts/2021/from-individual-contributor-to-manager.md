@@ -9,7 +9,7 @@ tags:
 image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lh04lc9840efwwxy978b.jpg
 imageAlt: A group of figures with a red one in the middle.
 date: 2021-09-02
-layout: layouts/base.njk
+layout: layouts/post.njk
 permalink: "/{{ title | slug }}/"
 ---
 

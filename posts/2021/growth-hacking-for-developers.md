@@ -9,7 +9,7 @@ tags:
 image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/334vwo0akl0dk49ld2di.jpg
 imageAlt: GROWTH in uppercase.
 date: 2021-05-12
-layout: layouts/base.njk
+layout: layouts/post.njk
 permalink: "/{{ title | slug }}/"
 ---
 

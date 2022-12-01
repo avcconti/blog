@@ -9,7 +9,7 @@ tags:
 image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pwnprkji6qxu91r53fcw.png
 imageAlt: AWS DynamoDB schema.
 date: 2022-02-23
-layout: layouts/base.njk
+layout: layouts/post.njk
 permalink: "/{{ title | slug }}/"
 ---
 
