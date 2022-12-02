@@ -21,7 +21,7 @@ layout: layouts/base.njk
     {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
     {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
     {%- if nextPost or previousPost %}
-      <hr>
+      <div class="gradient"></div>
 
       <ul>
         {%- if nextPost %}
