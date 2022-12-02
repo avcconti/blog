@@ -6,6 +6,7 @@ layout: layouts/base.njk
   {% set maxPosts = collections.posts.length | min(3) %}
     <h2>Última{% if maxPosts == 1 %} publicación{% else %}s {{ maxPosts }} publicaciones{% endif %}</h2>
 </section>
+<div class="gradient"></div>
 <div class="content-section">
   <section id="projects">
     {% set postslist = collections.posts | head(-3) %}
