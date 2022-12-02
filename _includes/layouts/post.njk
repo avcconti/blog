@@ -13,9 +13,9 @@ layout: layouts/base.njk
       {{description}}
     </p>
   </section>
-
   <article>
-     {{ content | safe }}
+    <img src="{{image}}" alt="{{imageAlt}}"/>
+      {{ content | safe }}
   </article>
   {%- if collections.posts %}
     {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
