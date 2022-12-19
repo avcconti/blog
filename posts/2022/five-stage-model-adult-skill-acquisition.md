@@ -49,7 +49,7 @@ Un experto no calcula, tampoco resuelve problemas, ni siquiera piensa, hace  lo 
 
 ## Ejemplos aplicados a mi entorno diario
 
-|  | Dev | Testing | Management |
+| Level | Dev | Testing | Management |
 | --- | --- | --- | --- |
 | Novice | Cuando haces un curso/bootcamp y sigues las reglas aprendidas a modo de religión | Asserts de happy paths | Sigues las reglas del anterior manager |
 | Advance Beginner | Vemos que las reglas no siempre nos valen y empezamos a copiar y pegar de stackoverflow sin saber si lo conseguiremos. | Empezamos a cubrir caminos peligrosos, buscamos romper nuestro código tras cada commit, aportando el respectivo mantenimiento de tests | Ya te has encontrado con la primera en la frente, y empiezas a tomar tus propias decisiones. |
