@@ -89,10 +89,10 @@ strong{
 table {
     display: block;
     overflow-x: auto;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
-table tbody {
+table tbody,table thead  {
     display: table;
     width: 100%;
 }
