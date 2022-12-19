@@ -86,6 +86,17 @@ strong{
     font-weight: bold;
 }
 
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+table tbody {
+    display: table;
+    width: 100%;
+}
+
 /* background color divs */
 
 .gradient {
