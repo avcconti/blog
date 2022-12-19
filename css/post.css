@@ -17,14 +17,19 @@ section time{
     display: block;
 }
 article{
-    font-size: 1.3rem;
+    font-size: 18px;
     padding: 0rem 1rem;
+    padding-bottom: 1rem;
 }
 
 article img{
     margin:0 auto;
     display:block;
     max-width: 1000%;
+}
+
+#pagination{
+    font-size: 18px;
 }
 
 @media (min-width: 800px) {
