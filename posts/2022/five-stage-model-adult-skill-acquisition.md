@@ -1,0 +1,75 @@
+---
+title: "Five-Stage Model of Adult Skill Acquisition"
+description: Resumen de las etapas que Stuart E. Dreyfus describe en su artículo de 2004, acompañado de ejemplos de cada etapa, vistos desde un punta de vista de X.
+tags:
+    - skills
+    - acquisition
+    - engineering
+
+image:
+imageAlt: Hand putting wooden blocks in stair form
+date: 2022-12-22
+layout: layouts/post.njk
+# eleventyExcludeFromCollections: false
+# permalink: true
+---
+
+Hace unos días me compartieron por el Slack de la empresa un artículo del cual desconocía su existencia, se llama _"The Five-Stage Model of Adult Skill Acquisition"_ y lo podéis encontrar en [Google](https://www.google.com/search?q=five+stage+model+of+adult+acquisition&oq=five+stage+model+of+adult+acquisition&aqs=chrome..69i57j69i60.6076j0j7&sourceid=chrome&ie=UTF-8), [Wikipedia] o directamente [aquí](https://www.bumc.bu.edu/facdev-medicine/files/2012/03/Dreyfus-skill-level.pdf). El autor, _Stuart E. Dreyfus_, divulga en el artículo acerca de un modelo base sobre las etapas por las que pasamos cuando adquirimos habilidades y conocimiento.
+
+Este asunto, el de _aprender_, es algo que siempre me ha llamado la atención, porque es fácil encontrar en nuestro entorno a personas que aprenden de diferentes maneras y a diferentes velocidades. A esto podemos sumarle que en los estudios primarios (colegio e instituto) no nos enseñan ni a estudiar ni a aprender, lo cual hace que sea muy fácil que nos saturemos o agobiemos cuando queremos aprender algo nuevo, o simplemente cuando metemos la cabeza de lleno en un tema concreto y vemos que hay más de lo que pensábamos.
+
+La lectura del artículo es muy amena, y _Dreyfus_ usa la conducción de vehículos y el ajedrez para ejemplificar caada etapa del modelo, lo cual ayuda a entender de manera rápida el nivel que describe. Después de completar la lectura me pareció que sería un ejercicio divertido pensar en ejemplos de mi día a día para acompañar a estas etapas del modelo, y esto mismo fue lo que me empujó a escribir esta publicación.
+
+## Stage 1: Novice
+
+Bajo un entorno en el que no existe ni se fuerza contexto, nos enseñan reglas que al seguirlas nos llevan a un resultado concreto, muy similar a cuando un ordenador sigue las instrucciones que se le pasan sin rechistar.
+
+### Ejemplo:
+
+asdsadsadd
+
+## Stage 2: Advanced Beginner
+
+Esta etapa es probablemente donde pasamos más tiempo, ya que es donde adquirimos experiencia viviendo y peleando con situaciones reales, loq ue me gusta llamar "la calle". Nos damos cuenta de que seguir las reglas de la etapa anterior no siempre es la mejor solución, de manera que comenzamos a adaptarlas, o incluso apartarlas, a medida que conocemos el contexto en el que nos movemos.
+
+### Ejemplo:
+
+asdasdasdasda
+
+## Stage 3: Competence
+
+Llegados a este punto hemos adquirido la suficiente experiencia como para profundizar en la propia habilidad, el problema es que esa experiencia nos abre la puerta a entender que sólo estábamos rascando la punta del iceberg, y que realmente son muchas más las variables a tener en cuenta en el buen aprendizaje del tema, por lo que es fácil sentirse abrumado.
+
+En esta etapa desarrollamos la habilidad para filtrar el conocimiento que nos es realmente útil en el contexto que nos movemos, y en base a eso la toma de decisiones se vuelve más sencilla, además comenzamos a construir nuestras propias reglas y procesos para continuar con el aprendizaje.
+
+En las etapas anteriores, si cometíamos fallos nos excusábamos en las reglas que aprendimos en su momento, pero ahora somos responsables directos de esas decisiones, para lo bueno y para lo malo, por lo que nos involucramos emocionalmente más.
+
+### Ejemplo:
+
+asdasd
+
+## Stage 4: Proficiency
+
+Si llegas aquí es porque has peleado con la ansiedad que genera la mera capacidad de tomar decisiones y ser responsable directo de ellas, la adoptas como parte del proceso. Las emociones que se generan, tanto con las decisiones buenas como con las malas, reforzarán nuestra capacidad para abrazar e inhibir las diferentes perspectivas con las que miremos el problema en cuestión.
+
+Nuestra capacidad para entender el objetivo a alcanzar es grande, pero no así la capacidad de saber cómo llegar hasta él.
+
+### Ejemplo:
+
+asdasdsd
+
+## Stage 5: Expertise
+
+Si en la anterior etapa no teníamos claro como llegar al objetivo, es aquí donde se demuestra la maestría sabiendo de primeras cómo vamos a llegar hasta el final, podríamos decir que la respuesta es inmediata e intuitiva. Esto es así gracias a la gran capacidad de discriminación que hemos adquirido, que nos permite seleccionar rápidamente aquel conocimiento que sí/no es válido para el contexto.
+
+Un experto no calcula, tampoco resuelve problemas, ni siquiera piensa, hace  lo que normalmente funciona, y funciona.
+
+### Ejemplo:
+
+sadasdds
+
+
+## Representación visual de las etapas
+
+![The five stage model for adult skill acquisition by Stuart E. Dryfus, grpahical representation](/img/2022/five-stages-model_table.png)
+
