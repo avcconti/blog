@@ -49,6 +49,8 @@ Un experto no calcula, tampoco resuelve problemas, ni siquiera piensa, hace  lo 
 
 ## Ejemplos aplicados a mi entorno diario
 
+A continuación describo los diferentes ejemplos en los que he podio pensar para intentar desgranar mejor cada nivel:
+
 | Level | Dev | Testing | Management |
 | --- | --- | --- | --- |
 | Novice | Cuando haces un curso/bootcamp y sigues las reglas aprendidas a modo de religión | Asserts de happy paths | Sigues las reglas del anterior manager |
@@ -56,3 +58,5 @@ Un experto no calcula, tampoco resuelve problemas, ni siquiera piensa, hace  lo 
 | Competence | Cogemos el código de stackoverflow como idea, pero la decisión final de implementación la tomamos nosotros. | Conocer distintas técnicas de testing, y ser capaz de implementarlas, hace que nos replanteemos el código del software escrito. | Consciente de que manejar personas es más complicado que manejar código, empiezas a buscar inspiración en otras personas para copiar y mejorar, buscando tus propios procesos. |
 | Proficiency | Sabemos lo que queremos conseguir, es fácil salir de la zona de confort y define las reglas que el equipo debe seguir para alcanzar los objetivos de la manera más eficiente. | Gran capacidad para decidir qué porción del código es necesario probar y de escribir tests independientes de la implementación. | Construyes y planificas en tu cabeza el avance de carrera quieres para tu equipo. No escribes libros, pero tu gestión disminuye a 0 el nivel de rotación del equipo de ingeniería.  |
 | Expertise | Eres un maestro de la intuición, tienes tus propias reglas ,cuestionas las “buenas prácticas” y evalúa el peso de sus decisiones con la máxima certidumbre. | Tiene argumentos y experiencia para decidir si TDD es una buena opción para el proyecto, y en caso positivo, implementarlo sin fricción. | Te piden un aumento de sueldo injustificado y eres capaz de contraargumentar en ese momento con ejemplos y situaciones. |
+
+El modelo, a pesar de no ser perfecto, creo que describe bien las diferentes etapas de aprendizaje por las que podemos pasar, y resalta el papel fundamental que juega la experiencia e intuición e nuestro aprendizaje continuo.
