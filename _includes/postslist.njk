@@ -22,6 +22,8 @@
         {% endfor %}
       </ul>
     </div>
-    <img src="{{post.data.image}}" alt="{{post.data.imageAlt}}"/>
+    <a href="{{ post.url | url }}" class="postlist-link">
+      <img src="{{post.data.image}}" alt="{{post.data.imageAlt}}"/>
+    </a>
   </article>
 {% endfor %}
