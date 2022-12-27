@@ -87,7 +87,9 @@ strong{
 }
 
 table {
+    display: block;
     overflow-x: auto;
+    /* white-space: nowrap; */
 }
 
 table tbody,table thead  {
@@ -96,6 +98,9 @@ table tbody,table thead  {
 
 table th{
     background-color: var(--lGrey);
+}
+table td{
+    border: solid 1px var(--lGrey);
 }
 
 /* background color divs */
