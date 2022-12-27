@@ -3,17 +3,11 @@ layout: layouts/base.njk
 ---
 <link rel="stylesheet" href="{{ '/css/home.css' | url }}">
 <section id="intro">
-  <p class="name">Hola, mi nombre es <span>{{personalInfo.name}}.</span></p>
-  <h2>Facilito cosas.</h2>
-  <p>
-        He pasado el tiempo suficiente en la industria del software como para saber cuando <i>mergear</i> una <i>pull request</i> sin ser revisada.
-      </p>
-</section>
-<div class="gradient"></div>
-<div class="section-blue">
-  <section id="projects">
-    {% set maxPosts = collections.posts.length | min(3) %}
+  {% set maxPosts = collections.posts.length | min(3) %}
     <h2>Última{% if maxPosts == 1 %} publicación{% else %}s {{ maxPosts }} publicaciones{% endif %}</h2>
+</section>
+<div class="content-section">
+  <section id="projects">
     {% set postslist = collections.posts | head(-3) %}
     {% set postslistCounter = collections.posts | length %}
     {% include "postslist.njk" %}
