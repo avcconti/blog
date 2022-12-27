@@ -1,6 +1,6 @@
 ---
 title: "Five-Stage Model of Adult Skill Acquisition"
-description: Resumen de las etapas que Stuart E. Dreyfus describe en su artículo de 2004, acompañado de ejemplos de cada etapa, vistos desde un punta de vista de X.
+description: Resumen de las etapas que Stuart E. Dreyfus describe en su artículo de 2004, ya mlas que acompaño con ejemplos de mi día a día en desarrollo, testing y gestión.
 tags:
     - skills
     - acquisition
