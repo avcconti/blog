@@ -2,36 +2,37 @@
 layout: layouts/base.njk
 ---
 <link rel="stylesheet" href="{{ '/css/post.css' | url }}">
-  <section>
-    <h1>{{ title }}</h1>
-    <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-    {%- for tag in tags | filterTagList %}
-      {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-    {%- endfor %}
-    <p class="greybox">
-      {{description}}
-    </p>
-  </section>
-  <article>
-    <img src="{{image}}" alt="{{imageAlt}}"/>
-      {{ content | safe }}
-  </article>
-  {%- if collections.posts %}
-    {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-    {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-    {%- if nextPost or previousPost %}
-      <div class="gradient"></div>
-
-      <ul>
-        {%- if nextPost %}
-          <li>Siguiente: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a>
-          </li>
-        {% endif %}
-        {%- if previousPost %}
-          <li>Anterior: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a>
-          </li>
-        {% endif %}
-      </ul>
-    {%- endif %}
+<section>
+  <h1>{{ title }}</h1>
+  <p class="greybox">
+    {{description}}
+  </p>
+</section>
+<article>
+  <img src="{{image}}" alt="{{imageAlt}}"/>
+  <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+  {{ content | safe }}
+  {%- for tag in tags | filterTagList %}
+    {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  {%- endfor %}
+</article>
+<div id="pagination">
+{%- if collections.posts %}
+  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+  {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  {%- if nextPost or previousPost %}
+    <div class="gradient"></div>
+    <ul>
+      {%- if nextPost %}
+        <li>Siguiente: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a>
+        </li>
+      {% endif %}
+      {%- if previousPost %}
+        <li>Anterior: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a>
+        </li>
+      {% endif %}
+    </ul>
   {%- endif %}
+{%- endif %}
+</div>
