@@ -87,14 +87,15 @@ strong{
 }
 
 table {
-    display: block;
     overflow-x: auto;
-    /* white-space: nowrap; */
 }
 
 table tbody,table thead  {
-    display: table;
     width: 100%;
+}
+
+table th{
+    background-color: var(--lGrey);
 }
 
 /* background color divs */
