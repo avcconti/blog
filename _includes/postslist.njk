@@ -1,0 +1,27 @@
+{% for post in postslist | reverse %}
+  {% set reverseOrderClass = ('reverse' if loop.index%2 === 0 else 'default') %}
+  <article class="{{reverseOrderClass}}">
+    <div class="text">
+      <a href="{{ post.url | url }}" class="postlist-link">
+        {% if post.data.title %}
+          <h3>{{ post.data.title }}</h3>
+        {% else %}
+          <code>{{ post.url }}</code>
+        {% endif %}
+      </a>
+      <p class="blackbox">
+        {{ post.data.description }}
+      </p>
+      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      <ul>
+        {% for tag in post.data.tags | filterTagList %}
+          {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+          <li>
+            <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <img src="{{post.data.image}}" alt="{{post.data.imageAlt}}"/>
+  </article>
+{% endfor %}
