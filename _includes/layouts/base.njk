@@ -1,12 +1,16 @@
 ---
 title: Blog de Andrés Velasco
+type: page
 eleventyComputed:
     meta:
         site:
-            name: "{{site.title}}"
+            name: "{{site.name}}"
             description: "{{site.description}}"
             url: "{{site.url}}"
         language: es-ES
+        title: {{data.title}}
+        image:
+            src:
 ---
 <!DOCTYPE html>
 <html lang="en">
