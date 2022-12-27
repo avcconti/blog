@@ -4,9 +4,9 @@ title: Blog de AVelasco
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <script src="https://kit.fontawesome.com/da6252f6c6.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{ '/css/base.css' | url }}">
         <title>{{title}}</title>
@@ -16,78 +16,85 @@ title: Blog de AVelasco
             <ul>
                 <li>
                     <h1>
-                        <a href="/"><span class="fas fa-code" aria-hidden="true"></span> {{personalInfo.nickname}}</a
+                        <a href="/">
+                            <span class="fas fa-code" aria-hidden="true"></span>
+                            {{personalInfo.nickname}}</a
                     >
-                </h1>
-            </li>
-            <li>
-                <a href="/blog">Blog</a>
-            </li>
-            <li>
-                <a href="/about">About</a>
-            </li>
-            <li>
-                <a href="{{personalInfo.linkedin}}" target="_blank">
-                    <span class="fab fa-linkedin" aria-hidden="true"></span>
-                    <span class="sr-only">LinkedIn</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{personalInfo.github}}" target="_blank">
-                    <span class="fab fa-github-square" aria-hidden="true"></span>
-                    <span class="sr-only">Github</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{personalInfo.twitter}}" target="_blank">
-                    <span class="fab fa-twitter-square" aria-hidden="true"></span>
-                    <span class="sr-only">Twitter</span>
-                </a>
-            </li>
-            <li>
-            <a href="mailto:{{personalInfo.email}}" class="button">Email</a
+                    </h1>
+                </li>
+                <li>
+                    <a href="/blog">Blog</a>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
+                    <a href="{{personalInfo.linkedin}}" target="_blank">
+                        <span class="fab fa-linkedin" aria-hidden="true"></span>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{personalInfo.github}}" target="_blank">
+                        <span class="fab fa-github-square" aria-hidden="true"></span>
+                        <span class="sr-only">Github</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{personalInfo.twitter}}" target="_blank">
+                        <span class="fab fa-twitter-square" aria-hidden="true"></span>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:{{personalInfo.email}}" class="button">Email</a
             >
-        </li>
-    </ul>
-</nav>
-{{ content | safe }}
-<div class="gradient"></div>
-    <footer>
-        <h2>{{personalInfo.name}} &middot; {{personalInfo.currentRole}}</h2>
-                            <ul>
-                                <li>
-                                    <a href="{{personalInfo.linkedin}}" target="_blank">
-                                        <span class="fab fa-linkedin" aria-hidden="true"></span>
-                                        <span class="sr-only">LinkedIn</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{{personalInfo.github}}" target="_blank">
-                                        <span class="fab fa-github-square" aria-hidden="true"></span>
-                                        <span class="sr-only">Github</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{{personalInfo.twitter}}" target="_blank">
-                                        <span class="fab fa-twitter-square" aria-hidden="true"></span>
-                                        <span class="sr-only">Twitter</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:{{personalInfo.email}}">
-                                        <span class="fas fa-envelope" aria-hidden="true"></span>
-                                        <span class="sr-only">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-        <p>
-            <small><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</small>
+                </li>
+            </ul>
+        </nav>
+        {{ content | safe }}
+        <div class="gradient"></div>
+        <footer>
+            <h2>{{personalInfo.name}} &middot; {{personalInfo.currentRole}}</h2>
+            <ul>
+                <li>
+                    <a href="{{personalInfo.linkedin}}" target="_blank">
+                        <span class="fab fa-linkedin" aria-hidden="true"></span>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{personalInfo.github}}" target="_blank">
+                        <span class="fab fa-github-square" aria-hidden="true"></span>
+                        <span class="sr-only">Github</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{personalInfo.twitter}}" target="_blank">
+                        <span class="fab fa-twitter-square" aria-hidden="true"></span>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:{{personalInfo.email}}">
+                        <span class="fas fa-envelope" aria-hidden="true"></span>
+                        <span class="sr-only">Email</span>
+                    </a>
+                </li>
+            </ul>
+            <p>
+                <a href="https://github.com/avcconti/blog/blob/main/{{ page.inputPath }}">Edit this page on GitHub</a>
 
-        </p>
-        <p>
-            <small>&copy; 2022 Andrés Velasco. Todos los derechos reservados.</small>
-        </p>
+            </p>
+            <p>
+                <small>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a><br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</small>
 
-    </footer>
-</body>
+            </p>
+            <p>
+                <small>&copy; 2022 Andrés Velasco. Todos los derechos reservados.</small>
+            </p>
+
+        </footer>
+    </body>
 </html>
