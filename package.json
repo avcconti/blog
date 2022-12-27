@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx @11ty/eleventy --serve",
+    "watch": "npx @11ty/eleventy --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avcconti/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avcconti/blog/issues"
+  },
+  "homepage": "https://github.com/avcconti/blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "eslint": "^8.22.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0"
+  }
+}
