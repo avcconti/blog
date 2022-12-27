@@ -28,7 +28,16 @@ article img{
 }
 
 @media (min-width: 800px) {
+    article{
+        padding: 1rem 4rem;
+    }
     article img{
-        max-width:70%;
+        width:60%;
+    }
+    section{
+        padding: 1rem 4rem;
+    }
+    section time{
+        display: inline;
     }
 }
