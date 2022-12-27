@@ -9,7 +9,7 @@ tags:
 image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vy51ek6nvh6d4ybpfwad.jpg
 imageAlt: Hands over the table in an office.
 date: 2021-03-16
-layout: layouts/base.njk
+layout: layouts/post.njk
 permalink: "/{{ title | slug }}/"
 ---
 

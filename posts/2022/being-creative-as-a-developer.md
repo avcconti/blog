@@ -9,7 +9,7 @@ tags:
 image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/24g9z41m7i9y19k7byt3.jpg
 imageAlt: A light made of paper.
 date: 2022-05-25
-layout: layouts/base.njk
+layout: layouts/post.njk
 permalink: "/{{ title | slug }}/"
 ---
 

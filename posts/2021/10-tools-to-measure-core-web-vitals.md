@@ -9,7 +9,7 @@ tags:
 image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ib07b7pm1qugbenypy27.png
 imageAlt: A dashboard with metrics.
 date: 2021-10-14
-layout: layouts/base.njk
+layout: layouts/post.njk
 permalink: "/{{ title | slug }}/"
 ---
 

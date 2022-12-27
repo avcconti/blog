@@ -9,10 +9,9 @@ tags:
 image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9n1ihqefdv236pubhrmc.jpg
 imageAlt: A light over a few schemas.
 date: 2022-08-22
-layout: layouts/base.njk
+layout: layouts/post.njk
 permalink: "/{{ title | slug }}/"
 ---
-
 
 There are times when you feel like a **god** because you think you can build anything, technically speaking, and sometimes you feel **useless** because the product owner needs you to find a solution for a specific problem and, instead of using an already mature and developed third-party product, you find yourself in your own development roadmap for a similar tool, built from zero. So your **frustration grows** because you think you have the skills to build that solution, but delivery timing would be out of question since the value needs to be delivered the following week.
 
