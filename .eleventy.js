@@ -1,8 +1,10 @@
 const { DateTime } = require("luxon");
 const schema = require("@quasibit/eleventy-plugin-schema");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = (function(eleventyConfig) {
   eleventyConfig.addPlugin(schema);
+  eleventyConfig.addPlugin(pluginRss);
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");

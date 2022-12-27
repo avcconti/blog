@@ -23,11 +23,11 @@
   "homepage": "https://github.com/avcconti/blog#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "eslint": "^8.22.0"
   },
   "dependencies": {
     "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
     "@quasibit/eleventy-plugin-schema": "^1.10.0",
     "@sindresorhus/slugify": "^2.1.1",
