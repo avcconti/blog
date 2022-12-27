@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+---
+<link rel="stylesheet" href="{{ '/css/home.css' | url }}">
+<section id="intro">
+  <h2>Blog</h2>
+</section>
+<div class="gradient"></div>
+<div class="section-blue">
+  <section id="projects">
+    {% set postslist = collections.posts  %}
+    {% include "postslist.njk" %}
+  </section>
+</div>
