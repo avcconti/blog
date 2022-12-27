@@ -25,7 +25,7 @@ article{
 article img{
     margin:0 auto;
     display:block;
-    max-width: 1000%;
+    max-width: 70%;
 }
 
 #pagination{
@@ -34,13 +34,28 @@ article img{
 
 @media (min-width: 800px) {
     article{
-        padding: 1rem 4rem;
+        padding: 1rem 8rem;
     }
     article img{
         width:60%;
     }
     section{
-        padding: 1rem 4rem;
+        padding: 1rem 8rem;
+    }
+    section time{
+        display: inline;
+    }
+}
+
+@media (min-width: 1100px) {
+    article{
+        padding: 1rem 15rem;
+    }
+    article img{
+        width:50%;
+    }
+    section{
+        padding: 1rem 15rem;
     }
     section time{
         display: inline;
