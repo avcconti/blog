@@ -1,10 +1,13 @@
 const { DateTime } = require("luxon");
+const schema = require("@quasibit/eleventy-plugin-schema");
 
 module.exports = (function(eleventyConfig) {
+  eleventyConfig.addPlugin(schema);
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("fonts");
+  eleventyConfig.addPassthroughCopy({ "img/favicon": "/" });
 
   // Return the smallest number argument
   eleventyConfig.addFilter("min", (...numbers) => {
@@ -45,4 +48,5 @@ module.exports = (function(eleventyConfig) {
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
+
 });

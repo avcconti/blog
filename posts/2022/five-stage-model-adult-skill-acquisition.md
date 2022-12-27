@@ -8,7 +8,7 @@ tags:
 
 image: /img/2022/five-stages-intuition_mastery.png
 imageAlt: Hand putting wooden blocks in stair form
-date: 2022-12-22
+date: 2022-12-28
 layout: layouts/post.njk
 # eleventyExcludeFromCollections: false
 # permalink: true

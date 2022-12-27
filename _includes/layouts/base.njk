@@ -1,5 +1,12 @@
 ---
-title: Blog de AVelasco
+title: Blog de Andrés Velasco
+eleventyComputed:
+    meta:
+        site:
+            name: "{{site.title}}"
+            description: "{{site.description}}"
+            url: "{{site.url}}"
+        language: es-ES
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +17,8 @@ title: Blog de AVelasco
         <script src="https://kit.fontawesome.com/da6252f6c6.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{ '/css/base.css' | url }}">
         <title>{{title}}</title>
+        {% jsonLdScript meta, type, tags %}
+
     </head>
     <body>
         <nav>
