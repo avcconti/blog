@@ -41,6 +41,13 @@ article a:hover{
     position: absolute;
     margin: 2px 5px;
 }
+.sharing-wrapper ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 2rem;
+}
 @media (min-width: 800px) {
     article{
         padding: 1rem 8rem;
