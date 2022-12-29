@@ -78,8 +78,26 @@ a:hover {
     text-decoration: none;
 }
 
+.fa-icon{
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: -.3em;
+}
+
+.fa-icon path{
+    fill:var(--magenta)
+}
+
+.fa-icon:hover path{
+    fill:var(--grey)
+}
+
 img {
     width: 100%;
+}
+
+.sr-only{
+    display: none;
 }
 
 strong{
@@ -209,14 +227,6 @@ footer ul {
 }
 footer img{
     width:auto;
-}
-footer [class*="fa-"] {
-    font-size: 100%;
-    color: var(--magenta);
-}
-footer a:hover,
-footer [class*="fa-"]:hover {
-    color: var(--grey);
 }
 
 /* media */

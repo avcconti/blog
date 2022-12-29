@@ -29,6 +29,10 @@ article img{
     aspect-ratio: 16/9;
 }
 
+article a:hover{
+    color:var(--magenta);
+}
+
 #pagination{
     font-size: 18px;
 }
