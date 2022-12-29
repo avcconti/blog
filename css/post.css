@@ -25,7 +25,8 @@ article{
 article img{
     margin:0 auto;
     display:block;
-    max-width: 70%;
+    max-width: 80%;
+    aspect-ratio: 16/9;
 }
 
 #pagination{
