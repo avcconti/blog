@@ -37,6 +37,10 @@ article a:hover{
     font-size: 18px;
 }
 
+.sharing-wrapper .fa-icon{
+    position: absolute;
+    margin: 2px 5px;
+}
 @media (min-width: 800px) {
     article{
         padding: 1rem 8rem;
