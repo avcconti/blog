@@ -223,7 +223,7 @@ footer ul {
     flex-flow: row wrap;
     justify-content: center;
     gap: 3rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 footer img{
     width:auto;
