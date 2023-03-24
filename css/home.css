@@ -78,7 +78,7 @@
     border-radius: 25px;
     width: 70%;
     display: block;
-    aspect-ratio: 16/13;
+    /*aspect-ratio: 16/13;*/
 }
 
 #projects .postlist-link {

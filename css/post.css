@@ -23,14 +23,18 @@ article{
 }
 
 article img{
-    margin:0 auto;
+    margin:30px auto;
     display:block;
     max-width: 80%;
-    aspect-ratio: 16/10;
+    /*aspect-ratio: 16/10;*/
+}
+
+a {
+    color: var(--magenta);
 }
 
 article a:hover{
-    color:var(--magenta);
+    color:var(--grey);
 }
 
 #pagination{
@@ -75,5 +79,22 @@ article a:hover{
     }
     section time{
         display: inline;
+    }
+}
+
+@media (min-width: 1300px) {
+    article{
+        padding: 1rem 20rem;
+    }
+    section{
+        padding: 1rem 20rem;
+    }
+}
+@media (min-width: 1600px) {
+    article{
+        padding: 1rem 25rem;
+    }
+    section{
+        padding: 1rem 25rem;
     }
 }
